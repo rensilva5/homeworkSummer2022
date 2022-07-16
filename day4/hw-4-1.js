@@ -13,6 +13,5 @@ function assignGrade(score) {
     console.log("F");
   }
 }
-let grade = 7
-assignGrade(grade); // - To check why undefined!!
-//console.log(grade)
+let grade = 9.7
+assignGrade(grade);
