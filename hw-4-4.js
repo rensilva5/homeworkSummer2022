@@ -1,1 +1,0 @@
-4. Create a function that takes in a number of two-pointers and three-pointers made and returns a basketball team’s total score?

@@ -2,8 +2,11 @@
 
 const testArray = [true, false, false, true, false, false, false, true, true, true, false]
 
-function test() {
-    return arr * true
+function test(arr) {
+    let numTrues = 1
+    for (let i = 0; i <testArray.length; i++) {
+        return arr 
+    }
     
 }
-test()
+console.log(test(testArray))
