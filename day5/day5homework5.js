@@ -1,12 +1,19 @@
 // - given a sentence reverse order: "the sky is blue" -> "euld si yks eht" */
 
-// let sentence = "the sky is blue"
+// function reverse(str) {
+//     let intoArray = str.split("") 
+//     let reverseArray = intoArray.reverse()
+//     let reverseString = reverseArray.join("")
+//     return reverseString
+// }
+//console.log(reverse("hello"));
 
-function reverse(str) {
-    let intoArray = str.split("") 
-    let reverseArray = intoArray.reverse()
-    let reverseString = reverseArray.join("")
-    return reverseString
-    
+function sentence(str) {
+    let toArray = str.split("")
+    let toReverse = toArray.reverse()
+    let joinSentence = toReverse.join("")
+    return joinSentence
 }
-console.log(reverse("hello"));
+
+//let sentence = "the sky is blue"
+console.log(sentence("the sky is blue"))
