@@ -1,3 +1,7 @@
 // - given a sentence reverse order: "the sky is blue" -> "euld si yks eht" */
 
-function 
+let sentence = "the sky is blue"
+
+function reverse() {
+    
+}

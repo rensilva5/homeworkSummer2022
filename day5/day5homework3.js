@@ -37,3 +37,48 @@ function fizzbuzz(n) {
     }
     let finalResult = fizzbuzz(33)  
     console.log(finalResult)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function fizzBuzz(n) {
+    let result = []
+    for (let i = 1; i <= n; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            result.push("fizzBuzz")
+        } else if (i % 3 === 0) {
+            result.push("fizz")
+        } else if (i % 5 === 0) {
+            result.push("Buzz")
+        } else
+            result.push(i)
+    } 
+    return result
+}
+console.log(fizzBuzz(33))
