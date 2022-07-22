@@ -1,14 +1,14 @@
-// Create a function that converts a string to all uppercase letters and console.log the result (hint: string methods):
-// let str = “WHAT a TIME to BE ALIVE!”
+// Create a function that converts a string to all uppercase letters and console.log the result
+// (hint: string methods):
 
-function hello (str) {
-    let phrase = “WHAT a TIME to BE ALIVE!”
-    return phrase.toUpperCase()
+// let str = "WHAT a TIME to BE ALIVE!"
 
-// function UpperCase () {
-//    
-// }
-//console.log(UpperCase())
+let str = "WHAT a TIME to BE ALIVE!"
+function convert (text) {
+    return text.toUpperCase()
+   
 }
-//console.log
-phrase.toUpperCase(str)
+//console.log(UpperCase())
+//phrase.toUpperCase()
+
+console.log(convert(str))
